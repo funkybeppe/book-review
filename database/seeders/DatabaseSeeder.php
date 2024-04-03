@@ -5,7 +5,6 @@ namespace Database\Seeders;
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use App\Models\Book;
 use App\Models\Review;
-use Database\Factories\ReviewFactory;
 use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
