@@ -21,7 +21,7 @@
     @endphp
 
     @foreach ($filters as $key => $label)
-        <a href="#" class="filter-item">
+        <a href="#" class="{{ request('filter') === $key ? 'filter-item-active' : 'filter-item'}}">
             {{ $label }}
         </a> 
     @endforeach
