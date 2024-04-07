@@ -62,4 +62,6 @@
 
     @endforelse
 </ul>
+
+{{ $books->links() }}
 @endsection
