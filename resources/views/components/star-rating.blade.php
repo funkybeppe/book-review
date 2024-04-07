@@ -1,3 +1,3 @@
 <div>
-    Star rating goes here
+    Star rating goes here {{ $rating }}
 </div>
